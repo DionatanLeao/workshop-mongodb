@@ -13,8 +13,7 @@ import com.mongodb.repository.UserRepository;
 public class Instantiation implements CommandLineRunner {
 	
 	@Autowired
-	private UserRepository userRepository;
-	
+	private UserRepository userRepository;	
 	
 	@Override
 	public void run(String... args) throws Exception {
